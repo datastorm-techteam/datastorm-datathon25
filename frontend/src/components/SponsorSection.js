@@ -11,9 +11,9 @@ import microsoft from '../img/microsoft.png';
 const SponsorSection = () => {
   return (
     <section id="sponsors" className="py-5 bg-light">
-      <Container>
+      <Container className="py-5">
         <h2 className="text-center mb-4 py-3 fs-1">Our Sponsors</h2>
-        <Row>
+        <Row className="bg-white p-5 rounded shadow">
           <Col xs={6} md={3} className="text-center sponsor-img">
             <Image src={google} fluid />
           </Col>
