@@ -7,7 +7,7 @@ const AboutSection = () => {
       <Container>
         <Row className="mb-4 py-5">
           <Col>
-            <h2 className="text-center">About the Hackathon</h2>
+            <h2 className="text-center fs-1">About the Hackathon</h2>
             <p className="text-center text-muted">
               Join us for an exciting 24-hour coding marathon to solve
               real-world challenges and innovate solutions.

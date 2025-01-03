@@ -1,12 +1,17 @@
 .navbar {
   backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(10px);
 }
 
 .name-nav {
-  background: linear-gradient(to bottom right, #1d376e, #b9c8e2);
+  background: linear-gradient(to bottom right, #51699b, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.container-nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }

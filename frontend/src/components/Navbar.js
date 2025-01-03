@@ -5,7 +5,7 @@ import "../css/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container">
+      <div className="container container-nav">
         <a className="navbar-brand name-nav" href="#home">
           DataStorm '25
         </a>

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 
+import "../css/QuestionSection.css";
+
+import desert from "../img/desert.jpg";
+
 const QuestionSection = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -34,39 +38,52 @@ const QuestionSection = () => {
   };
 
   return (
-    <div className="container my-5 py-5">
-      <h2 className="mb-4">Frequently Asked Questions</h2>
-      <div className="accordion" id="faqAccordion">
-        {questions.map((item, index) => (
-          <div key={index} className="card border-0 mb-3 shadow-sm rounded">
+    <div
+      className="hero-section d-flex flex-column align-items-center text-center"
+      style={{
+        backgroundImage: `url(${desert})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
+    >
+      <div className="container my-5 py-5 text-white">
+        <h2 className="mb-5 fs-1">Frequently Asked Questions</h2>
+        <div className="accordion" id="faqAccordion">
+          {questions.map((item, index) => (
             <div
-              className="card-header"
-              id={`heading${index}`}
-              onClick={() => toggleQuestion(index)}
-              style={{ cursor: "pointer" }}
+              key={index}
+              className="card border-0 mb-3 shadow-sm rounded card-question"
             >
-              <h5 className="mb-0">
-                <button
-                  className="btn btn-link text-black"
-                  type="button"
-                  aria-expanded={activeIndex === index}
-                  aria-controls={`collapse${index}`}
-                  style={{ pointerEvents: "none", textDecoration: "none" }}
-                >
-                  {item.question}
-                </button>
-              </h5>
+              <div
+                className="card-header border-0"
+                id={`heading${index}`}
+                onClick={() => toggleQuestion(index)}
+                style={{ cursor: "pointer" }}
+              >
+                <h5 className="mb-0">
+                  <button
+                    className="btn btn-link text-white"
+                    type="button"
+                    aria-expanded={activeIndex === index}
+                    aria-controls={`collapse${index}`}
+                    style={{ pointerEvents: "none", textDecoration: "none" }}
+                  >
+                    {item.question}
+                  </button>
+                </h5>
+              </div>
+              <div
+                id={`collapse${index}`}
+                className={`collapse ${activeIndex === index ? "show" : ""}`}
+                aria-labelledby={`heading${index}`}
+                data-parent="#faqAccordion"
+              >
+                <div className="card-body card-answer text-white rounded">{item.answer}</div>
+              </div>
             </div>
-            <div
-              id={`collapse${index}`}
-              className={`collapse ${activeIndex === index ? "show" : ""}`}
-              aria-labelledby={`heading${index}`}
-              data-parent="#faqAccordion"
-            >
-              <div className="card-body">{item.answer}</div>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

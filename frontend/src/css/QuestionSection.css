@@ -1,0 +1,9 @@
+.card-question {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    text-align: left;
+}
+
+.card-answer {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    text-align: left;
+}

@@ -5,7 +5,7 @@ const ScheduleSection = () => {
   return (
     <section id="schedule" className="py-5">
       <Container>
-        <h2 className="text-center mb-4 py-3">Event Schedule</h2>
+        <h2 className="text-center mb-4 py-3 fs-1">Event Schedule</h2>
         <Row className="py-3">
           <Col md={4}>
             <h5>Day 1</h5>

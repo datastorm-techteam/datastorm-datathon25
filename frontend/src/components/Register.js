@@ -4,7 +4,6 @@ const Register = () => {
   return (
     <div id="register"
       className="container mt-5 d-flex justify-content-center align-items-center"
-      style={{ minHeight: "100vh" }}
     >
       <div className="text-center">
         <h1>Register</h1>
