@@ -1,8 +1,7 @@
-
-Container h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    color: #fff;
-}
+.name-hero {
+    background: linear-gradient(to right, #b257be, #fcefdc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

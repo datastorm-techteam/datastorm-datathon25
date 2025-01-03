@@ -5,7 +5,7 @@ const SponsorSection = () => {
   return (
     <section id="sponsors" className="py-5 bg-light">
       <Container>
-        <h2 className="text-center mb-4">Our Sponsors</h2>
+        <h2 className="text-center mb-4 py-3">Our Sponsors</h2>
         <Row>
           <Col xs={6} md={3} className="text-center">
             <Image src="/path-to-sponsor1-logo.png" fluid />

@@ -1,14 +1,25 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-3">
+    <footer className="bg-dark text-white">
       <Container>
-        <Row>
-          <Col className="text-center">
-            <p>&copy; 2025 Hackathon 2025. All Rights Reserved.</p>
-            <p>Follow us on <a href="https://twitter.com" className="text-primary">Twitter</a> and <a href="https://linkedin.com" className="text-primary">LinkedIn</a>.</p>
+        <Row className="justify-content-center">
+          <Col className="text-center m-2">
+            <p style={{ margin: 0 }}>
+              &copy; 2025 | DataStorm
+            </p>
+            <p style={{ margin: 0 }}>
+              Follow us on{" "}
+              <a href="https://discord.com" className="text-primary">
+                discord
+              </a>{" "}
+              and{" "}
+              <a href="https://instagram.com" className="text-primary">
+                instagram
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>

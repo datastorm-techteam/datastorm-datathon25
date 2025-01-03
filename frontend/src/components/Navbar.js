@@ -1,10 +1,12 @@
 import React from "react";
 
+import "../css/Navbar.css";
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand name-nav" href="#home">
           DataStorm '25
         </a>
         <button
@@ -26,8 +28,8 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#agenda">
-                Agenda
+              <a className="nav-link" href="#schedule ">
+                Schedule
               </a>
             </li>
             <li className="nav-item">
