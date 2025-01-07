@@ -23,7 +23,7 @@ const HeroSection = () => {
         style={{ height: "100vh" }}
       >
         <div className="p-5 rounded-3 shadow-lg bg-black bg-opacity-50">
-          <div className="container px-5 d-flex">
+          <div className="container px-5 d-flex text-container">
             <h1 className="text-white display-2 mx-4 fw-bold">Welcome to</h1>
             <h1 className="text-white display-2 fw-bold name-hero">
               {"{ DataStorm '25 }"}

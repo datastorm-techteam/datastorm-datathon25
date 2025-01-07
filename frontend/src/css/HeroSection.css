@@ -1,7 +1,18 @@
 .name-hero {
-    background: linear-gradient(to right, #b257be, #fcefdc);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #b257be, #fcefdc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
   }
-  
+  .text-container h1 {
+    font-size: 1.5rem;
+  }
+}

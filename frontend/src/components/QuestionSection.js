@@ -79,7 +79,7 @@ const QuestionSection = () => {
                 aria-labelledby={`heading${index}`}
                 data-parent="#faqAccordion"
               >
-                <div className="card-body card-answer text-white rounded">{item.answer}</div>
+                <div className="card-body card-answer text-white rounded px-4">{item.answer}</div>
               </div>
             </div>
           ))}

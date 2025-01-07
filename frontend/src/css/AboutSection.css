@@ -1,0 +1,8 @@
+a.social {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+.social:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}

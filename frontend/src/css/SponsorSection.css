@@ -8,3 +8,10 @@
     width: 10% !important;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .sponsor-img {
+        width: 25% !important;
+        height: auto;
+    }
+}
