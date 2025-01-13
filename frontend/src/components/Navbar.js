@@ -1,8 +1,13 @@
-import React from "react";
-
+import React, { useState } from "react";
 import "../css/Navbar.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container container-nav">
@@ -12,33 +17,50 @@ const Navbar = () => {
         <button
           className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
+          onClick={toggleNavbar}
+          aria-expanded={isOpen}
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div
+          className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+          id="navbarNav"
+        >
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <a
+                className="nav-link"
+                href="#about"
+                onClick={() => setIsOpen(false)} // Close navbar after clicking link
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#schedule ">
+              <a
+                className="nav-link"
+                href="#schedule"
+                onClick={() => setIsOpen(false)} // Close navbar after clicking link
+              >
                 Schedule
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#sponsors">
+              <a
+                className="nav-link"
+                href="#sponsors"
+                onClick={() => setIsOpen(false)} // Close navbar after clicking link
+              >
                 Sponsors
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#register">
+              <a
+                className="nav-link"
+                href="#register"
+                onClick={() => setIsOpen(false)} // Close navbar after clicking link
+              >
                 Register
               </a>
             </li>

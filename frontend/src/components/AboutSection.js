@@ -87,8 +87,8 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div class="card m-5">
-        <div class="row m-5">
+      <div class="card m-3">
+        <div class="row m-3">
           <div class="col-md-4">
             <img src={desert} class="img-fluid rounded" alt="..."></img>
           </div>
@@ -109,8 +109,8 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div class="card m-5">
-        <div class="row m-5">
+      <div class="card m-3">
+        <div class="row m-3">
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">

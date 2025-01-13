@@ -26,7 +26,8 @@ const HeroSection = () => {
           <div className="container px-5 d-flex text-container">
             <h1 className="text-white display-2 mx-4 fw-bold">Welcome to</h1>
             <h1 className="text-white display-2 fw-bold name-hero">
-              {"{ DataStorm '25 }"}
+              {" DataStorm '25 "}
+              <div className="highlight"></div>
             </h1>
           </div>
           <div className="col-lg-6 mx-auto">

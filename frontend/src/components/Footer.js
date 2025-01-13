@@ -11,19 +11,25 @@ const Footer = () => {
     <footer className="footer-background text-white">
       <Container>
         <Row className="justify-content-center">
-          <Col className="text-center m-1">
-            <div className="footer-container rounded p-1 m-1 d-flex" style={{justifyContent: "space-evenly"}}>
-              <p style={{ margin: 0 }}>&copy; 2025 | DataStorm</p>
+          <Col className="text-center">
+            <div className="footer-container rounded p-1 d-flex flex-col text-secondary">
               <p style={{ margin: 0 }}>
-                Follow us on{" "}
-                <a href="https://discord.com" className="text-primary m-1">
-                  <img src={discord} alt="Discord" style={{ width: "18px", height: "18px" }} />
-                </a>{" "}
-                and{" "}
-                <a href="https://instagram.com" className="text-primary m-1">
-                  <img src={instagram} alt="Instagram" style={{ width: "15px", height: "15px" }} />
+                <a href="https://discord.com" className="text-primary mx-2">
+                  <img
+                    src={discord}
+                    alt="Discord"
+                    style={{ width: "18px", height: "18px" }}
+                  />
+                </a>
+                <a href="https://instagram.com" className="text-primary mx-2">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: "15px", height: "15px" }}
+                  />
                 </a>
               </p>
+              <p style={{ margin: 0, marginLeft: "1em" }}>&copy; 2025 DataStorm</p>
             </div>
           </Col>
         </Row>

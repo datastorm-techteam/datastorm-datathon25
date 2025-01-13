@@ -19,7 +19,7 @@
 
 .container-nav {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .nav-item {
@@ -29,4 +29,19 @@
 
 .nav-item:hover {
   border-bottom: white 1px solid;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    filter: none;
+    backdrop-filter: none;
+  }
+
+  .container-nav {
+    background-color: transparent;
+  }
+
+  .name-nav {
+    margin-left: .5rem;
+  }
 }

@@ -10,7 +10,7 @@ const ScheduleSection = () => {
       <Container>
       <h2 className="py-5">Schedule</h2>
         <div id="scheduleCarousel" className="carousel slide d-flex">
-          <div className="d-flex">
+          <div className="d-flex flex-row">
             <button
               className="carousel-control-prev"
               type="button"

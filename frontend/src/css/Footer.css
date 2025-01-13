@@ -1,7 +1,12 @@
 .footer-background {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
 .footer-container {
-    background-color: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+
+.footer-container a {
+  filter: grayscale(100%);
+  
 }

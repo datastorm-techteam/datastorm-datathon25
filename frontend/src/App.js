@@ -8,6 +8,10 @@ import QuestionSection from "./components/QuestionSection";
 import Register from "./components/Register";
 import Footer from "./components/Footer";
 
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 const App = () => {
   return (
     <div>
@@ -17,7 +21,7 @@ const App = () => {
       <AgendaSection />
       <SponsorSection />
       <QuestionSection />
-      <Register />
+      {/* <Register /> */}
       <Footer />
     </div>
   );
