@@ -40,14 +40,14 @@ const QuestionSection = () => {
   return (
     <div
       className="hero-section d-flex flex-column align-items-center text-center"
-      style={{
-        backgroundImage: `url(${desert})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      // style={{
+      //   backgroundImage: `url(${desert})`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundAttachment: "fixed",
+      // }}
     >
-      <div className="container my-5 py-5 text-white">
+      <div className="container my-5 py-5 text-black">
         <h2 className="mb-5 fs-1">Frequently Asked Questions</h2>
         <div className="accordion" id="faqAccordion">
           {questions.map((item, index) => (

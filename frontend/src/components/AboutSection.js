@@ -55,8 +55,8 @@ const AboutSection = () => {
       </Container>
 
       <div className="container px-4 py-5" id="icon-grid">
-        <h2 className="py-2 border-bottom ">Questions?</h2>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 ">
+        <h2 className=" py-2 border-bottom ">Questions?</h2>
+        <div className="justify-content-evenly row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 ">
           <a
             href="https://discord.com"
             className="text-secondary m-1 d-flex align-items-center flex-column border p-3 rounded social"
@@ -87,12 +87,12 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div class="card m-3">
-        <div class="row m-3">
+      <div class="card">
+        <div class="row m-5 justify-content-center">
           <div class="col-md-4">
             <img src={desert} class="img-fluid rounded" alt="..."></img>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-5">
             <div class="card-body">
               <h5 class="card-title">What is the DataStorm?</h5>
               <p class="card-text">
@@ -109,9 +109,9 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div class="card m-3">
-        <div class="row m-3">
-          <div class="col-md-8">
+      <div class="card">
+        <div class="row m-5 justify-content-center">
+          <div class="col-md-5">
             <div class="card-body">
               <h5 class="card-title">
                 “Creating Data-Driven Impact Through Community to Foster
@@ -135,133 +135,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-
-      {/* <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="py-2 border-bottom ">Icon grid</h2>
-
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 ">
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-body-secondary flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            ></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-                Featured title
-              </h3>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };

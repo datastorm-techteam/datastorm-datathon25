@@ -9,9 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container container-nav">
-        <a className="navbar-brand name-nav" href="#home">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent p-3">
+      <div className="container container-nav p-1">
+        <a className="navbar-brand name-nav px-3" href="#home">
           DataStorm '25
         </a>
         <button
@@ -28,36 +28,39 @@ const Navbar = () => {
           id="navbarNav"
         >
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
+            <li className="nav-item ">
               <a
-                className="nav-link"
+                className="nav-link px-3"
                 href="#about"
                 onClick={() => setIsOpen(false)} // Close navbar after clicking link
               >
                 About
               </a>
             </li>
-            <li className="nav-item">
+
+            <li className="nav-item ">
               <a
-                className="nav-link"
+                className="nav-link px-3"
                 href="#schedule"
                 onClick={() => setIsOpen(false)} // Close navbar after clicking link
               >
                 Schedule
               </a>
             </li>
-            <li className="nav-item">
+
+            <li className="nav-item ">
               <a
-                className="nav-link"
+                className="nav-link px-3"
                 href="#sponsors"
                 onClick={() => setIsOpen(false)} // Close navbar after clicking link
               >
                 Sponsors
               </a>
             </li>
+
             <li className="nav-item">
               <a
-                className="nav-link"
+                className="nav-link px-3"
                 href="#register"
                 onClick={() => setIsOpen(false)} // Close navbar after clicking link
               >

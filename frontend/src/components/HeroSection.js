@@ -15,7 +15,7 @@ const HeroSection = () => {
         height: "100vh",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundAttachment: "fixed",
+        // backgroundAttachment: "fixed",
       }}
     >
       <div

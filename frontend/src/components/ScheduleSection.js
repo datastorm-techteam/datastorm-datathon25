@@ -8,7 +8,7 @@ const ScheduleSection = () => {
     <section id="schedule" className="py-5">
       
       <Container>
-      <h2 className="py-5">Schedule</h2>
+      <h2 className="py-5 fs-1">Schedule</h2>
         <div id="scheduleCarousel" className="carousel slide d-flex">
           <div className="d-flex flex-row">
             <button
