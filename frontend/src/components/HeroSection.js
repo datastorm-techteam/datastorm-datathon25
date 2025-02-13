@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Button } from "react-bootstrap";
 import "../css/HeroSection.css";
 
+import background from "../img/background.png";
+import background2 from "../img/background2.png";
 import desert from "../img/desert.jpg";
 import img1 from "../img/img1.png";
 
@@ -11,11 +13,11 @@ const HeroSection = () => {
       className="hero-section d-flex flex-column align-items-center text-center"
       id="home"
       style={{
-        backgroundImage: `url(${desert})`,
+        backgroundImage: `url(${background2})`,
         height: "100vh",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        // backgroundAttachment: "fixed",
+        backgroundAttachment: "fixed",
       }}
     >
       <div

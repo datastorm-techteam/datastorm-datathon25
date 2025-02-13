@@ -1,0 +1,26 @@
+// override Bootstrap variables
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/utilities";
+// @import "../../node_modules/bootstrap/scss/variables";
+
+// $primary: rgb(31, 36, 33);
+// $secondary: rgb(106, 111, 138);
+// $warning: rgb(207, 92, 54);
+// $danger: rgb(153, 33, 12);
+// $light: rgb(241, 250, 238);
+
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+    --bs-primary: rgb(31, 36, 33) !important;
+    --bs-secondary: rgb(106, 111, 138) !important;
+    --bs-warning: rgb(207, 92, 54) !important;
+    --bs-danger: rgb(153, 33, 12) !important;
+    --bs-light: rgb(241, 250, 238) !important;
+
+    --bs-primary-rgb: 31, 36, 33 !important;
+    --bs-secondary-rgb: 106, 111, 138 !important;
+    --bs-warning-rgb: 207, 92, 54 !important;
+    --bs-danger-rgb: 153, 33, 12 !important;
+    --bs-light-rgb: 241, 250, 238 !important;
+}

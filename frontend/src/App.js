@@ -9,12 +9,13 @@ import Register from "./components/Register";
 import Footer from "./components/Footer";
 
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import "./scss/custom.scss";
 
 const App = () => {
   return (
-    <div>
+    <div >
       <Navbar />
       <HeroSection />
       <AboutSection />

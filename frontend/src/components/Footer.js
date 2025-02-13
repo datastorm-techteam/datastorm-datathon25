@@ -6,9 +6,17 @@ import "../css/Footer.css";
 import discord from "../img/discord.png";
 import instagram from "../img/instagram.png";
 
+import background from "../img/background.png";
+import background2 from "../img/background2.png";
+
 const Footer = () => {
   return (
-    <footer className="footer-background text-white p-5">
+    <footer className="footer-background text-white p-5" style={{
+            backgroundImage: `url(${background2})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundAttachment: "fixed",
+          }}>
       <Container>
         <Row className="justify-content-center">
           <Col className="text-center">

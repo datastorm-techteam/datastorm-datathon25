@@ -3,12 +3,21 @@ import { Container } from "react-bootstrap";
 
 import "../css/ScheduleSection.css";
 
+import desert from "../img/desert.jpg";
+import background from "../img/background.png";
+import background2 from "../img/background2.png";
+
 const ScheduleSection = () => {
   return (
-    <section id="schedule" className="py-5">
+    <section id="schedule" className="py-5" style={{
+            backgroundImage: `url(${background2})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundAttachment: "fixed",
+          }}>
       
-      <Container>
-      <h2 className="py-5 fs-1">Schedule</h2>
+      <Container className="p-5 rounded-3 shadow-lg bg-black bg-opacity-50">
+      <h2 className="py-5 fs-1 text-light text-center">Schedule</h2>
         <div id="scheduleCarousel" className="carousel slide d-flex">
           <div className="d-flex flex-row">
             <button
@@ -23,12 +32,12 @@ const ScheduleSection = () => {
               ></span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <div className="carousel-inner">
+            <div className="carousel-inner text-light">
               {/* Day 1 */}
               <div className="carousel-item active">
-                <div className="py-3">
+                <div className="">
                   <h5>Day 1</h5>
-                  <ul className="list-group list-group-flush">
+                  <ul className="list-group list-group-flush p-3 bg-white rounded-3">
                     <li className="list-group-item">
                       4:30 PM - Student Check-in - Horizon 1st Floor
                     </li>
