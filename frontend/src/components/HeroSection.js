@@ -37,7 +37,7 @@ const HeroSection = () => {
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
               <button
                 type="button"
-                class="btn btn-outline-info text-white lead mb-3 px-3 py-2"
+                class="btn btn-outline-danger text-white lead mb-3 px-3 py-2"
               >
                 Register Today!
               </button>

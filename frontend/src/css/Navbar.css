@@ -1,11 +1,11 @@
 .navbar {
-  /* backdrop-filter: blur(10px); */
-  background-color: rgba(0, 0, 0, 0.8);
-  /* -webkit-backdrop-filter: blur(10px); */
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .name-nav {
-  background: linear-gradient(to bottom right, #d355c2, #ffffff);
+  background: linear-gradient(to bottom right, #971d1d, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -18,10 +18,10 @@
 }
 
 .container-nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   border-radius: 5px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
 }
 
 .nav-item {

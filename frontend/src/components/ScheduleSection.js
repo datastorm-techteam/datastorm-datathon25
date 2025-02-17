@@ -9,15 +9,18 @@ import background2 from "../img/background2.png";
 
 const ScheduleSection = () => {
   return (
-    <section id="schedule" className="py-5" style={{
-            backgroundImage: `url(${background2})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundAttachment: "fixed",
-          }}>
-      
-      <Container className="p-5 rounded-3 shadow-lg bg-black bg-opacity-50">
-      <h2 className="py-5 fs-1 text-light text-center">Schedule</h2>
+    <section
+      id="schedule"
+      className="py-5"
+      // style={{
+      //   backgroundImage: `url(${background2})`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundAttachment: "fixed",
+      // }}
+    >
+      <Container className="py-5 rounded-3 shadow-lg bg-black bg-opacity-50">
+        <h2 className="fs-1 text-light text-center">Schedule</h2>
         <div id="scheduleCarousel" className="carousel slide d-flex">
           <div className="d-flex flex-row">
             <button
@@ -77,7 +80,7 @@ const ScheduleSection = () => {
               <div className="carousel-item">
                 <div className="py-3">
                   <h5>Day 2</h5>
-                  <ul className="list-group list-group-flush">
+                  <ul className="list-group list-group-flush p-3 bg-white rounded-3">
                     <li className="list-group-item">
                       8:00 AM - Breakfast - Horizon 2nd Floor
                     </li>
@@ -158,7 +161,7 @@ const ScheduleSection = () => {
               <div className="carousel-item">
                 <div className="py-3">
                   <h5>Day 3</h5>
-                  <ul className="list-group list-group-flush">
+                  <ul className="list-group list-group-flush p-3 bg-white rounded-3">
                     <li className="list-group-item">
                       8:00 AM - Submission Deadline
                     </li>

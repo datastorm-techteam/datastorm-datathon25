@@ -9,10 +9,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent p-3">
-      <div className="container container-nav p-1">
-        <a className="navbar-brand name-nav px-3" href="#home">
-          DataStorm '25
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div className="container container-nav px-1">
+        <a className="navbar-brand name-nav" href="#home">
+          InsightLegi DataStorm
         </a>
         <button
           className="navbar-toggler"
@@ -28,7 +28,7 @@ const Navbar = () => {
           id="navbarNav"
         >
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item ">
+            <li className="nav-item">
               <a
                 className="nav-link px-3"
                 href="#about"

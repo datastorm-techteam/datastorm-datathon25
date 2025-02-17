@@ -5,8 +5,3 @@
 .footer-container {
   flex-direction: column;
 }
-
-.footer-container a {
-  filter: grayscale(100%);
-  
-}
