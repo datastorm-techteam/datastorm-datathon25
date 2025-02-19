@@ -1,25 +1,35 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { div } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
+
+import google from "../img/google.png";
+import meta from "../img/meta.png";
+import uber from "../img/uber.png";
+import microsoft from "../img/microsoft.png";
 
 import "../css/ScheduleSection.css";
 
-import desert from "../img/desert.jpg";
+import framer from "../img/framer.png";
+import frame from "../img/frame.png";
 import background from "../img/background.png";
-import background2 from "../img/background2.png";
 
 const ScheduleSection = () => {
   return (
     <section
       id="schedule"
-      className="py-5"
-      // style={{
-      //   backgroundImage: `url(${background2})`,
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      //   backgroundAttachment: "fixed",
-      // }}
+      className="schedule py-5"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
     >
-      <Container className="py-5 rounded-3 shadow-lg bg-black bg-opacity-50">
+      
+      {/* <img src={framer} className="frame-schedule" alt="Frame" /> */}
+      
+      <div className="py-5 rounded-3 shadow-lg">
+        
         <h2 className="fs-1 text-light text-center">Schedule</h2>
         <div id="scheduleCarousel" className="carousel slide d-flex">
           <div className="d-flex flex-row">
@@ -230,7 +240,7 @@ const ScheduleSection = () => {
             ></button>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 };

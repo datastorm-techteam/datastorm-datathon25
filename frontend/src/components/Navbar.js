@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container container-nav px-1">
+      <div className="container container-nav">
         <a className="navbar-brand name-nav" href="#home">
           InsightLegi DataStorm
         </a>

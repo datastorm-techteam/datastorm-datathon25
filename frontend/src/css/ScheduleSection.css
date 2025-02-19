@@ -1,3 +1,17 @@
+.schedule {
+  height: fit-content;
+  position: relative;
+  height: min(100vh, 100%);
+  z-index: 10;
+}
+
+.frame-schedule {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
 .carousel {
   /* background-color: black; */
   display: flex;

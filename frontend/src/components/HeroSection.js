@@ -3,7 +3,8 @@ import { Container, Button } from "react-bootstrap";
 import "../css/HeroSection.css";
 
 import background from "../img/background.png";
-import background2 from "../img/background2.png";
+import frame from "../img/frame.png";
+import frames from "../img/frames.png";
 import desert from "../img/desert.jpg";
 import img1 from "../img/img1.png";
 
@@ -13,21 +14,24 @@ const HeroSection = () => {
       className="hero-section d-flex flex-column align-items-center text-center"
       id="home"
       style={{
-        backgroundImage: `url(${background2})`,
+        backgroundImage: `url(${background})`,
         height: "100vh",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundAttachment: "fixed",
+        // backgroundAttachment: "fixed",
       }}
     >
+      <img src={frames} className="frame" alt="Frame" />
       <div
         className="px-3 pt-3 my-3 text-center d-flex flex-column justify-content-center align-items-center"
         style={{ height: "100vh" }}
       >
-        <div className="p-5 rounded-3 shadow-lg bg-black bg-opacity-50">
-          <div className="container px-5 d-flex text-container">
-            <h1 className="text-white display-2 mx-4 fw-bold">Welcome to</h1>
-            <h1 className="text-white display-2 fw-bold name-hero">
+        <div className="title p-5 rounded-3">
+        
+          <div className="container px-5 d-flex flex-column text-container">
+          
+            <h1 className="title-sub text-white display-2 mx-4 fw-bold">Welcome to</h1>
+            <h1 className="title-text text-white display-2 fw-bold name-hero">
               {" DataStorm '25 "}
               <div className="highlight"></div>
             </h1>
@@ -43,8 +47,8 @@ const HeroSection = () => {
               </button>
             </div>
           </div>
-          <div
-            className="overflow-hidden border-bottom"
+          {/* <div
+            className="overflow-hidden border-bottom border-danger"
             style={{ maxHeight: "30vh" }}
           >
             <div className="container px-5 ">
@@ -57,7 +61,7 @@ const HeroSection = () => {
                 loading="lazy"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

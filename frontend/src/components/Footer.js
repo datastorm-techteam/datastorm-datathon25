@@ -8,12 +8,11 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { GoLaw } from "react-icons/go";
 
 import background from "../img/background.png";
-import background2 from "../img/background2.png";
 
 const Footer = () => {
   return (
     <footer
-      className="footer-background text-white p-5"
+      className="footer-background text-white p-3"
       // style={{
       //   backgroundImage: `url(${background2})`,
       //   backgroundSize: "cover",

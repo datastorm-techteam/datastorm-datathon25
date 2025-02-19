@@ -9,6 +9,28 @@
     height: auto;
 }
 
+.frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .title {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+
 @media (max-width: 768px) {
     .sponsor-img {
         width: 25% !important;
