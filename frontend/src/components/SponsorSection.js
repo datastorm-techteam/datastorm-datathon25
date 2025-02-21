@@ -17,16 +17,16 @@ const SponsorSection = () => {
     <section
       id="sponsors"
       className="py-5"
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundAttachment: "fixed",
+      // }}
     >
       
       <Container className="py-5 p-5 rounded-3 shadow-lg bg-black bg-opacity-50">
-      <img src={frames} className="frame" alt="Frame" />
+      {/* <img src={frames} className="frame" alt="Frame" /> */}
         <h2 className="text-center text-light mb-4 fs-1">Our Sponsors</h2>
         <Row className="p-5">
           <Col xs={6} md={3} className="text-center sponsor-img">

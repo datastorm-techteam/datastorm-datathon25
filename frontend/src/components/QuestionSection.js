@@ -41,12 +41,12 @@ const QuestionSection = () => {
   return (
     <div
       className="hero-section d-flex flex-column align-items-center text-center"
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundAttachment: "fixed",
+      // }}
     >
       <div className="container my-5 py-5 text-light p-5 rounded-3 shadow-lg bg-black bg-opacity-50">
         <h2 className="mb-5 fs-1">Frequently Asked Questions</h2>

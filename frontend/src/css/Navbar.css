@@ -1,16 +1,42 @@
-.navbar {
+.navbar-outside {
   backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #fcefb4;
   -webkit-backdrop-filter: blur(10px);
+  font-family: "Yeseva One", serif;
+  padding: 0 0;
+  border-top: #243a9b 5px solid;
+  border-bottom: #243a9b 5px solid;
+  /* justify-content: space-between; */
+  color: black !important;
+}
+
+.navbar-inside {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 0;
+  width: 100vw;
+  color: black;
+  border-top: 5px solid #d4af37;
+  border-bottom: 5px solid #d4af37;
 }
 
 .navbar-brand {
-  /* font-family: "Elephant", sans-serif; */
+  font-family: "Yeseva One", serif;
+  font-weight: 700;
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 0.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .name-nav {
-  background: linear-gradient(to bottom right, #971d1d, #ffffff);
+  background: linear-gradient(to bottom right, #243a9b, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -50,7 +76,7 @@
   }
 
   .navbar-toggler {
-    padding: .3rem !important;
+    padding: 0.3rem !important;
   }
 
   .name-nav {

@@ -18,19 +18,19 @@ const ScheduleSection = () => {
     <section
       id="schedule"
       className="schedule py-5"
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundAttachment: "fixed",
+      // }}
     >
       
       {/* <img src={framer} className="frame-schedule" alt="Frame" /> */}
       
       <div className="py-5 rounded-3 shadow-lg">
         
-        <h2 className="fs-1 text-light text-center">Schedule</h2>
+        <h2 className="fs-1 text-center">Schedule</h2>
         <div id="scheduleCarousel" className="carousel slide d-flex">
           <div className="d-flex flex-row">
             <button

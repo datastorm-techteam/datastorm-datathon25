@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../css/Navbar.css";
 
+import logo from "../img/logo.png";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,10 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div className="container container-nav">
+    <nav className="navbar-outside navbar-expand-lg navbar-dark fixed-top">
+      <div className="navbar-inside container-nav">
         <a className="navbar-brand name-nav" href="#home">
-          InsightLegi DataStorm
+          <img src={logo} alt="Logo" className="logo" style={{ width: "30px", height: "30px"}}/>
+          DataStorm
         </a>
         <button
           className="navbar-toggler"

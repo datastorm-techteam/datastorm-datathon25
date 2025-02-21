@@ -21,11 +21,12 @@ const AboutSection = () => {
             <h2 className="text-center text-danger fs-1 my-5">
               About DataStorm'25 Datathon
             </h2>
-            <p className="text-center text-primary">
+            <p className="text-center text-primary mb-5">
               A datathon is like a marathon - but with data. You’ll spend three
               days with 200 students on a fun and exciting project to create the
               first legislative tracker for legal system penalties.
             </p>
+            <p></p>
             <p className="text-center text-primary">
               Our Mission: We are developing InsightLegi, the first
               comprehensive platform that tracks fines and fees legislation
@@ -33,6 +34,9 @@ const AboutSection = () => {
             </p>
           </Col>
         </Row>
+
+        <div className="divider"></div>
+
         <Row className="flex align-items-start">
           <Col md={6}>
             <h5 className="text-danger">Why Participate?</h5>

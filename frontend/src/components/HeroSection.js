@@ -13,15 +13,15 @@ const HeroSection = () => {
     <div
       className="hero-section d-flex flex-column align-items-center text-center"
       id="home"
-      style={{
-        backgroundImage: `url(${background})`,
-        height: "100vh",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        // backgroundAttachment: "fixed",
-      }}
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   height: "100vh",
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   // backgroundAttachment: "fixed",
+      // }}
     >
-      <img src={frames} className="frame" alt="Frame" />
+      {/* <img src={frame} className="frame" alt="Frame"/> */}
       <div
         className="px-3 pt-3 my-3 text-center d-flex flex-column justify-content-center align-items-center"
         style={{ height: "100vh" }}
@@ -36,9 +36,9 @@ const HeroSection = () => {
               <div className="highlight"></div>
             </h1>
           </div>
-          <div className="col-lg-6 mx-auto">
+          <div className="col-lg-6 mx-auto flex justify-content-center align-items-center">
             <p className="text-white lead mb-4">Build. Innovate. Compete.</p>
-            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <div className="d-grid gap-2 flex justify-content center">
               <button
                 type="button"
                 class="btn btn-outline-danger text-white lead mb-3 px-3 py-2"
