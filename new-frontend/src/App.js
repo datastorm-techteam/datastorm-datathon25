@@ -6,7 +6,7 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <div class="w-screen h-screen bg-indigo-950">
+    <div class="App w-screen h-screen bg-red-950">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
