@@ -4,54 +4,54 @@ import logo from "../img/logo.png";
 
 const Header = () => {
   return (
-    <header class="fixed flex items-center justify-center w-screen">
+    <header class="fixed flex items-center justify-center w-screen z-50">
       <img
         src={logo}
-        class="h-10 fixed top-10 border-4 border-yellow-600 rounded-full z-50"
+        class="h-10 right-3 md:right-[50%] fixed md:top-7 border-4 border-yellow-600 rounded-full z-50"
         alt="Logo"
       />
-      <nav class="w-screen bg-stone-900/70 backdrop-blur-lg border-b-4 border-yellow-600 px-4 lg:px-0 py-3 dark:bg-gray-800">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+      <nav class="w-screen bg-stone-900/70 backdrop-blur-lg border-b-4 border-yellow-600 px-4 lg:px-0 py-2 dark:bg-gray-800">
+        <div class="font-mono flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <a href="/" class="flex items-center rounded">
             {/* <img src={logo} class="mr-3 h-6 sm:h-8" alt="Logo" /> */}
-            <span class="self-center text-xl font-medium whitespace-nowrap bg-gradient-to-r from-cyan-600 to-slate-50 bg-clip-text text-transparent border-dotted border-b-2 border-t-2 border-gray-100">
-              DataStorm 25
+            <span class="self-center text-xl font-medium whitespace-nowrap bg-gradient-to-r from-cyan-600 via-slate-50 to-yellow-600 bg-clip-text text-transparent border-dashed border-b border-transparent hover:border-slate-50">
+              DataStorm:25
             </span>
           </a>
 
-          <ul class="flex font-light text-sm lg:flex-row lg:space-x-8 lg:mt-0">
+          <ul class="flex font-extralight text-md gap-4">
             <li>
               <a
                 href="/"
-                class="block text-gray-100 p-2 rounded lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                class="py-1 text-slate-50 border-dashed border-b border-transparent hover:border-slate-50"
               >
-                Content
+                About
               </a>
             </li>
 
-            <div class="flex items-center lg:border-l lg:border-yellow-600">
+            <div class="flex w-1 items-center lg:border-l lg:border-yellow-600">
               &nbsp;
             </div>
 
             <li>
               <a
-                href="/"
-                class="block text-gray-100 p-2 rounded lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                href="/schedule"
+                class="py-1 text-slate-50 border-dashed border-b border-transparent hover:border-slate-50"
               >
-                Content
+                Schedule
               </a>
             </li>
 
-            <div class="flex items-center lg:border-l lg:border-yellow-600">
+            <div class="flex w-1 items-center lg:border-l lg:border-yellow-600">
               &nbsp;
             </div>
 
             <li>
               <a
-                href="/"
-                class="block text-gray-100 p-2 rounded lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                href="#register"
+                class="py-1 text-slate-50 border-dashed border-b border-transparent hover:border-slate-50"
               >
-                Content
+                Register
               </a>
             </li>
           </ul>
