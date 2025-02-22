@@ -5,20 +5,20 @@ import background from "../img/background.png";
 const Questions = () => {
   return (
     <div
-      className="bg-stone-900"
+      className="bg-stone-900 overflow-x-hidden"
       id="mission"
       style={{
         backgroundImage: `url(${background})`,
-        height: "100vh",
+        // height: "100vh",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="border-x-2 border-yellow-600 shadow-2xl px-[1rem] lg:px-[5rem] flex flex-col items-center justify-center w-screen h-auto min-h-[100vh] gap-4 max-w-[80vw] lg:max-w-[70vw] mx-auto text-yellow-600 bg-stone-950">
+      <div className="py-20 border-x-2 border-yellow-600 shadow-2xl px-[1rem] lg:p-[5rem] flex flex-col items-center justify-center gap-4 max-w-[80vw] lg:max-w-[70vw] mx-auto text-yellow-600 bg-stone-950">
         <div class="min-w-[60vw] max-w-[70vw] mx-auto font-sans">
-          <div class="flex flex-col align-center items-center gap-4 py-5 text-stone-50">
-            <h1 class="text-xl lg:text-4xl font-semibold text-yellow-600">
+          <div class="flex flex-col align-center gap-4 py-5 text-stone-50">
+            <h1 class="text-2xl font-semibold text-yellow-600">
               Frequently Asked Questions
             </h1>
             <div class="h-1 w-full border-b border-yellow-600 mb-3">&nbsp;</div>

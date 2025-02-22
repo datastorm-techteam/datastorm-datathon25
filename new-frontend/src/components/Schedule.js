@@ -9,18 +9,18 @@ const Schedule = () => {
     <div>
       <Header />
       <div
-        className="bg-stone-900"
+        className="bg-stone-900 overflow-x-hidden"
         id="schedule"
         style={{
           backgroundImage: `url(${background})`,
-          height: "100vh",
+          // height: "100vh",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
         }}
       >
-        <div className="border-x-2 border-yellow-600 shadow-2xl lg:px-[5rem] flex flex-col items-center justify-center w-screen h-auto min-h-[100vh] gap-4 max-w-[80vw] lg:max-w-[70vw] mx-auto text-yellow-600 bg-gradient-to-b from-stone-950 to-red-950">
-          <div class="min-w-[60vw] max-w-[70vw] mx-auto font-sans">
+        <div className="pt-20 border-x-2 border-yellow-600 shadow-2xl lg:px-[5rem] flex flex-col items-center justify-center min-h-[100vh] gap-4 max-w-[80vw] lg:max-w-[70vw] mx-auto text-yellow-600 bg-gradient-to-b from-red-950 to-stone-950">
+          <div class="mx-auto">
             <div class="flex flex-col align-center items-center gap-4 py-5 text-stone-50">
               <h1 class="text-4xl font-semibold text-yellow-600">Schedule</h1>
               <div class="h-1 w-full border-b border-yellow-600 mb-3">
@@ -28,7 +28,7 @@ const Schedule = () => {
               </div>
               <div
                 id="default-carousel"
-                class="relative w-full"
+                class="relative w-full min-w-[50vw] "
                 data-carousel="slide"
               >
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">

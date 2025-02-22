@@ -6,6 +6,7 @@ import Main from "./Main";
 import Mission from "./Mission";
 import Questions from "./Questions";
 import Schedule from "./Schedule";
+import Sponsor from "./Sponsor";
 
 import background from "../img/background.png";
 import background_frame from "../img/background_frame.png";
@@ -13,11 +14,11 @@ import background_frame from "../img/background_frame.png";
 const Home = () => {
   return (
     <div
-      class="w-screen h-auto"
+      class="overflow-x-hidden h-auto"
       id="home"
       style={{
-        backgroundImage: `url(${background_frame})`,
-        height: "100vh",
+        backgroundImage: `url(${background})`,
+        // height: "100vh",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -28,6 +29,8 @@ const Home = () => {
 
       <Mission />
       <Questions />
+
+      <Sponsor />
     </div>
   );
 };
