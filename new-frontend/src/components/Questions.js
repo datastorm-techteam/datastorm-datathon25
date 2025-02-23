@@ -15,7 +15,7 @@ const Questions = () => {
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="py-20 border-x-2 border-yellow-600 shadow-2xl px-[1rem] lg:p-[5rem] flex flex-col items-center justify-center gap-4 max-w-[80vw] lg:max-w-[70vw] mx-auto text-yellow-600 bg-stone-950">
+      <div className="py-20 border-x-2 border-yellow-600 shadow-2xl px-[1rem] lg:p-[5rem] flex flex-col items-center justify-center gap-4 max-w-[80vw] lg:max-w-[70vw] mx-auto text-yellow-600 bg-gradient-to-b from-red-950 to-stone-950">
         <div class="min-w-[60vw] max-w-[70vw] mx-auto font-sans">
           <div class="flex flex-col align-center gap-4 py-5 text-stone-50">
             <h1 class="text-2xl font-semibold text-yellow-600">

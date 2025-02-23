@@ -22,7 +22,7 @@ const Header = () => {
           <ul class="flex font-extralight text-md gap-4">
             <li>
               <a
-                href="/"
+                href="/#mission"
                 class="py-1 text-slate-50 border-dashed border-b border-transparent hover:border-slate-50"
               >
                 About
@@ -48,7 +48,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#register"
+                href="/register"
                 class="py-1 text-slate-50 border-dashed border-b border-transparent hover:border-slate-50"
               >
                 Register

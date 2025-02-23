@@ -1,24 +1,23 @@
 import "./App.css";
-
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Schedule from "./components/Schedule";
+import Register from "./components/Register";
 
 function App() {
   return (
-    <div class="App w-screen">
-      <div class="bg-red-950">
-        <BrowserRouter>
+    <BrowserRouter>
+      <div className="App w-screen">
+        <div className="bg-red-950">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/schedule" element={<Schedule />} />
-            {/* <Route index element={<Home />} /> */}
-            {/* <Route path="blogs" element={<Blogs />} /> */}
+            <Route path="/register" element={<Register />} />
           </Routes>
-        </BrowserRouter>
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
